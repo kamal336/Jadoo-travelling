@@ -252,3 +252,52 @@ h1,h2,h3,h4,h5,h6{
     
 }
 /* footer ends from here */
+
+/* media query starts from here */
+
+/*for mobile*/
+@media screen and (max-width: 668px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
+
+    #top-hero{
+        flex-direction: column-reverse;
+        
+    }
+    .detail-intro{
+        font-size: 17px;
+    }
+    .detail-heading{
+        font-size: 44px;
+        line-height: 45px;
+    }
+    .categories, .destination, .advertise {
+        justify-content: center;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+
+    }
+
+}
+
+/* for tablet */
+
+@media screen and (min-width: 668px) and (max-width: 992px) {
+  #top-hero, .navbar{
+      width: 90%;
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .categories{
+      width: 100%;
+      justify-content: center;
+  }
+}
+/* media query ends from here */
