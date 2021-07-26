@@ -58,6 +58,7 @@ h1,h2,h3,h4,h5,h6{
 .nav-link{
     text-decoration: none;
     font-size: 17px;
+    color: black;
 }
 
 .button-outline{
@@ -182,3 +183,72 @@ h1,h2,h3,h4,h5,h6{
     color: rgb(218, 7, 172);
 }
 /* top destination ends from here */
+
+/* advertisement area starts from here */
+.advertise{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.advertise-brand{
+    width: 230px;
+    padding: 30px 0;
+}
+/* advertisement area ends from here */
+
+/* subscribe area starts from here */
+#subscribe-us{
+   background-image: url("images/bg-decor-1.png");
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.subscribes{
+    background-image: url("images/subscribe-decor-left.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color:#cb3cf7 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 120px;
+    border-radius: 15px;
+
+}
+
+.subscribe h4{
+   font-size: 28px;
+   color: rgb(248, 245, 77);
+}
+
+.email{
+    padding: 19px 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+/* subscribe area ends from here */
+
+/* footer starts from here */
+.footer-area{
+    text-align: center;
+    padding: 40px 0;
+    
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    
+}
+
+.footer-div{
+    width: 230px;
+    padding: 40px 0;
+    
+}
+/* footer ends from here */
